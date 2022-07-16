@@ -1,3 +1,13 @@
+
+a:link {
+    text-decoration: none;
+}
+.listcenter a:hover {
+    background-color: rgb(145, 207, 145);
+}
+a:hover {
+    background-color: rgb(145, 207, 145);
+}
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(45, 160, 160);
@@ -17,9 +27,8 @@ ol {
 body {
     position:relative;
     background-color: honeydew;
+    padding-bottom: 10px;
     border: double rgb(51, 58, 51) 5px;
-    height:fit-content;
-    padding-right:100px;
 }
 .images{
     width:300px;
@@ -40,10 +49,26 @@ body {
     position:relative; left:40px;
 }
 .homebutton {
-    display: block;
-    text-align: center;
+    display: inline-flex;
+    border: 2px solid rgb(137, 172, 134);
+    margin-bottom:-5px;
+    padding: 5px 10px;
     font-size: larger;
     font-weight: bolder;
+}
+.homeposition {
+    display:block;
+    text-align: center;
+}
+.listcenter a {
+    color: black;
+    margin:auto;
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+    padding:10px;
+    border: 3px solid honeydew;
+    background-color: rgb(201, 227, 201);
 }
 #indexbody {
     position:relative;
@@ -51,4 +76,7 @@ body {
     border: double rgb(51, 58, 51) 5px;
     padding-bottom: 57px;
     height:fit-content;
+}
+#recipes {
+    text-align: center;
 }
