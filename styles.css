@@ -25,10 +25,9 @@ ol {
     font-size: large;
 }
 body {
-    position:relative;
     background-color: honeydew;
-    padding-bottom: 10px;
     border: double rgb(51, 58, 51) 5px;
+    padding-bottom: 10px;
 }
 .images{
     width:300px;
@@ -60,21 +59,22 @@ body {
     display:block;
     text-align: center;
 }
+.listcenter {
+    display: flex;
+    height: 50px;
+}
 .listcenter a {
     color: black;
-    margin:auto;
-    display: flex;
-    box-sizing: border-box;
-    width: fit-content;
+    width: 100px;
+    height: 35px;
     padding:10px;
     border: 3px solid honeydew;
     background-color: rgb(201, 227, 201);
 }
 #indexbody {
-    position:relative;
     background-color: honeydew;
     border: double rgb(51, 58, 51) 5px;
-    padding-bottom: 57px;
+    padding-bottom: 220px;
     height:fit-content;
 }
 #recipes {
